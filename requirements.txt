@@ -1,0 +1,48 @@
+# Environment variables
+python-dotenv
+
+# LangChain core ecosystem
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-tavily
+
+# LangGraph for ReAct agent / agent workflow
+langgraph
+
+# OpenAI API
+openai>=1.30.0
+
+# Tavily search tool
+tavily-python>=0.3.0
+
+# Web scraping with BeautifulSoup
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=5.0.0
+
+# Data handling
+pandas>=2.0.0
+
+# Token counting  / text utils
+tiktoken>=0.6.0
+
+# Logging / Debugging(Optional)
+rich>=13.7.0
+
+# Optional: API/backend support
+fastapi
+uvicorn
+
+# JSON handling improvements
+orjson>=3.9.0
+
+# Optional: validation and structured outputs
+pydantic>=2.5.0
+
+# Optional: notebooks/testing
+ipykernel
+
+# Optional (foradvanced parsing / HTML cleanup)
+html5lib>=1.1.0
