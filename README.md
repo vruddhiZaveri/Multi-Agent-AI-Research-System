@@ -101,87 +101,6 @@ Multi-Agent-AI-Research-System/
 └── README.md
 ```
 
----
-
-## ⚙️ Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/vruddhiZaveri/Multi-Agent-AI-Research-System.git
-cd Multi-Agent-AI-Research-System
-```
-
-### 2. Create Virtual Environment
-
-```bash
-python -m venv .venv
-```
-
-### 3. Activate Virtual Environment
-
-#### Windows
-
-```bash
-.venv\Scripts\activate
-```
-
-#### Linux / Mac
-
-```bash
-source .venv/bin/activate
-```
-
-### 4. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🔑 Environment Variables
-
-Create a `.env` file in the project root.
-
-### Gemini Configuration
-
-```env
-GOOGLE_API_KEY=your_google_api_key
-```
-
-### Tavily Configuration
-
-```env
-TAVILY_API_KEY=your_tavily_api_key
-```
-
----
-
-## ▶️ Running the Application
-
-Launch the Streamlit application:
-
-```bash
-streamlit run app.py
-```
-
-Open your browser and navigate to:
-
-```text
-http://localhost:8501
-```
-
----
-
-## 💡 Example Workflow
-
-### User Input
-
-```text
-Generative AI
-```
-
 ### Processing Pipeline
 
 1. Search Agent performs web research using Tavily Search.
@@ -228,7 +147,6 @@ B.Tech in Artificial Intelligence & Machine Learning
 
 - AI/ML Engineer
 - GenAI Enthusiast
-- Multi-Agent Systems Developer
 
 GitHub: https://github.com/vruddhiZaveri
 
